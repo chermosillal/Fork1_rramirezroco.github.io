@@ -1,20 +1,41 @@
+@font-face {
+  font-family: "FiraSans Bold";
+  src: url("../fonts/FiraSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FiraSans Italic";
+  src: url("../fonts/FiraSans-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FiraSans Light";
+  src: url("../fonts/FiraSans-Light.ttf") format("truetype");
+}
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "FiraSans Light", sans-serif;
   background-color: #e9e9e9;
 }
 
-/* Navbar */
+h1 {
+  font-family: "FiraSans Bold", sans-serif;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: "FiraSans Bold", sans-serif;
+  font-size: 18px;
+}
+
 .tema-gris {
-  background-color: #454545;
+  background-color: #757575;
 }
 
 .logo-personal {
   height: 30px;
 }
 
-/* Información Personal */
 .tema-gris-light {
-  background-color: #c0c0c0;
+  background-color: #c7c7c7;
 }
 
 #informacion-personal > .item-informacion > article > img {
@@ -35,4 +56,23 @@ body {
 .item-informacion article a {
   text-decoration: none;
   color: rgb(59, 59, 59);
+}
+
+.span-fechas {
+  float: inline-end;
+  font-family: "FiraSans Italic";
+}
+
+.container > section {
+  border-radius: 10px;
+}
+
+.img-portafolio {
+  max-width: 450px;
+}
+
+@media (max-width: 768px) {
+  .img-portafolio {
+    max-width: 100px;
+  }
 }

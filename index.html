@@ -18,11 +18,12 @@
   </head>
   <body>
     <header class="navbar navbar-expand-lg navbar-dark fixed-left tema-gris">
-      <div class="container">
+      <div class="container-fluid">
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -30,26 +31,28 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#informacion-personal">Acerca de mi</a>
+              <a class="nav-link" href="#informacion-datos">Datos Personales</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#informacion-educacion">Educación</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#informacion-experiencia"
-                >Experiencia</a
-              >
+              <a class="nav-link" href="#informacion-experiencia">
+                Experiencia
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portafolio.html"> Portafolio </a>
             </li>
           </ul>
         </div>
       </div>
     </header>
-
     <main>
       <div class="container">
-        <section class="tema-gris-light p-3" id="informacion-personal">
+        <section class="tema-gris-light p-3 mt-3" id="informacion-personal">
           <div class="item-informacion">
             <article>
               <img
@@ -92,44 +95,68 @@
             </article>
           </div>
         </section>
-        <section id="informacion-personal" class="tema-gris-light p-3 mt-3">
+        <section id="informacion-datos" class="tema-gris-light p-3 mt-3">
           <h2><i class="fa-solid fa-user"></i> Datos Personales</h2>
           <ul>
-            <li>Nombre: Rosa Alejandra Ramírez Roco</li>
-            <li>Lugar de Nacimiento: Talca, Región del Maule. Chile</li>
-            <li>Fecha de Nacimiento: 20-03-1995</li>
+            <li>Nombre: Rosa Alejandra Ramírez Roco.</li>
+            <li>Lugar de Nacimiento: Talca.</li>
+            <li>Fecha de Nacimiento: 20-03-1995.</li>
           </ul>
         </section>
         <section id="informacion-educacion" class="tema-gris-light p-3 mt-3">
           <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2>
           <ol>
             <li>
-              Educación Básica: Escuela Corralones, San Clemente (2001-2008)
+              Educación Básica: Escuela Corralones, San Clemente.
+              <span class="span-fechas">(2001-2008)</span>
             </li>
             <li>
-              Educación Media: Instituto Superior de Comercio "E.M.S", Talca
-              (2009-2012).
+              Educación Media: Instituto Superior de Comercio "E.M.S", Talca.
+              <span class="span-fechas">(2009-2012)</span>
               <ul>
-                <li>Título: Técnico en Contabilidad</li>
+                <li>Título: Técnico en Contabilidad.</li>
               </ul>
             </li>
             <li>
-              Educación Superior: Instituto Profesional Santo Tomás, Talca
-              (2015-2019).
+              Educación Superior: Instituto Profesional Santo Tomás, Talca.
+              <span class="span-fechas"> (2015-2019)</span>
               <ul>
-                <li>Título: Ingeniería en Informática</li>
+                <li>Título: Ingeniería en Informática.</li>
+              </ul>
+            </li>
+            <li>
+              Desafio LATAM.
+              <span class="span-fechas"> (2024-2025)</span>
+              <ul>
+                <li>En curso: Full Stack JavaScript.</li>
               </ul>
             </li>
           </ol>
         </section>
         <section id="informacion-experiencia" class="tema-gris-light p-3 mt-3">
           <h2><i class="fa-solid fa-briefcase"></i> Experiencia</h2>
-          <ol></ol>
+          <ul>
+            <li>
+              Práctica Profesional I Ingeniería en Informática SOC. Clínica del
+              Maule, Talca.
+              <span class="span-fechas">(2018)</span>
+            </li>
+            <li>
+              Práctica Profesional II Ingeniería en Informática Soluciones
+              Integrales Kamaleon SPA, Talca.
+              <span class="span-fechas">(2018)</span>
+            </li>
+            <li>
+              Desarrollador de Software, Soluciones Integrales Kamaleon SPA,
+              Talca.
+              <span class="span-fechas"> (2018-2025)</span>
+            </li>
+          </ul>
         </section>
       </div>
     </main>
     <footer class="text-center tema-gris mt-3 text-white">
-      © 2025 Rosa Ramírez Roco .Todos los derechos reservados.
+      © 2025 Rosa Ramírez Roco. Todos los derechos reservados.
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
