@@ -1,1 +1,38 @@
-/* estilos */
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #e9e9e9;
+}
+
+/* Navbar */
+.tema-gris {
+  background-color: #454545;
+}
+
+.logo-personal {
+  height: 30px;
+}
+
+/* Información Personal */
+.tema-gris-light {
+  background-color: #c0c0c0;
+}
+
+#informacion-personal > .item-informacion > article > img {
+  height: 180px;
+  border-radius: 50%;
+}
+
+#informacion-personal {
+  width: 100%;
+}
+
+.item-informacion {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item-informacion article a {
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+}

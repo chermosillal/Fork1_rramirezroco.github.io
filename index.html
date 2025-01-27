@@ -4,24 +4,133 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rosa Ramírez</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <script
       src="https://kit.fontawesome.com/7b34a45b6f.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <header>
-      <h1>Rosa Ramírez</h1>
-      <nav>MENU</nav>
-      <main>Detalle</main>
+    <header class="navbar navbar-expand-lg navbar-dark fixed-left tema-gris">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link" href="#informacion-personal">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#informacion-educacion">Educación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#informacion-experiencia"
+                >Experiencia</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
+
+    <main>
+      <div class="container">
+        <section class="tema-gris-light p-3" id="informacion-personal">
+          <div class="item-informacion">
+            <article>
+              <img
+                src="./assets/img/foto-cv.jpg"
+                alt="Foto Curriculum Rosa Ramírez"
+              />
+            </article>
+            <article class="text-center">
+              <h1 class="m-0">Rosa Ramírez Roco</h1>
+              <h4>Ingeniera en Informática</h4>
+              <p>
+                Ingeniera en Informática con 6 años de experiencia en el área de
+                desarrollo, específicamente PHP, CSS y JavaScript. Dispuesta a
+                nuevos desafíos, aprendizaje y cooperación en equipo.
+                Actualmente cursando la Carrera de Desarrollo Full Stack
+                JavaScript en Desafio Latam, con la intención de ampliar
+                conocimiento y experiencias.
+              </p>
+              <a
+                href="https://cl.linkedin.com/in/rramirezroco"
+                aria-label="Linkedin"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin fa-2x m-2"></i>
+              </a>
+              <a
+                href="https://github.com/rramirezroco"
+                aria-label="GithHub"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github fa-2x m-2"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/_rramirezr"
+                aria-label="Instagram"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram fa-2x m-2"></i>
+              </a>
+            </article>
+          </div>
+        </section>
+        <section id="informacion-personal" class="tema-gris-light p-3 mt-3">
+          <h2><i class="fa-solid fa-user"></i> Datos Personales</h2>
+          <ul>
+            <li>Nombre: Rosa Alejandra Ramírez Roco</li>
+            <li>Lugar de Nacimiento: Talca, Región del Maule. Chile</li>
+            <li>Fecha de Nacimiento: 20-03-1995</li>
+          </ul>
+        </section>
+        <section id="informacion-educacion" class="tema-gris-light p-3 mt-3">
+          <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2>
+          <ol>
+            <li>
+              Educación Básica: Escuela Corralones, San Clemente (2001-2008)
+            </li>
+            <li>
+              Educación Media: Instituto Superior de Comercio "E.M.S", Talca
+              (2009-2012).
+              <ul>
+                <li>Título: Técnico en Contabilidad</li>
+              </ul>
+            </li>
+            <li>
+              Educación Superior: Instituto Profesional Santo Tomás, Talca
+              (2015-2019).
+              <ul>
+                <li>Título: Ingeniería en Informática</li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section id="informacion-experiencia" class="tema-gris-light p-3 mt-3">
+          <h2><i class="fa-solid fa-briefcase"></i> Experiencia</h2>
+          <ol></ol>
+        </section>
+      </div>
+    </main>
+    <footer class="text-center tema-gris mt-3 text-white">
+      © 2025 Rosa Ramírez Roco .Todos los derechos reservados.
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
